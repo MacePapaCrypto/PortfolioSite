@@ -35,6 +35,7 @@ const Heading = (props: any, ref: any) => {
                         marginTop: "1rem",
                         marginBottom: "1rem"
                     }}
+                    href="https://calendly.com/cryptomacepapa"
                 >
                     Get in touch
                 </Button>

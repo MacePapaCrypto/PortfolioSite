@@ -1,4 +1,4 @@
-import React, { useRef, useState, useMemo, createRef } from 'react';
+import React, { useState, useMemo, createRef } from 'react';
 import AppBar from '@mui/material/AppBar';
 import { ThemeProvider, createTheme, Container, Switch, Toolbar, Avatar } from '@mui/material';
 import { FormGroup, FormControlLabel, Box, Button } from '@mui/material';
