@@ -96,7 +96,7 @@ function App() {
                 }}>
                   <FormControlLabel 
                     control={<Switch onChange={handleChange}/>}
-                    label={currentThemeMode === 'light' ? <LightModeTwoToneIcon color='primary' /> : <DarkModeTwoToneIcon color='primary' /> }
+                    label={currentThemeMode === 'light' ? <LightModeTwoToneIcon color='primary' sx={{display: "block"}}/> : <DarkModeTwoToneIcon color='primary' sx={{display: "block"}}/> }
                   />
                 </FormGroup>
               </Box>
